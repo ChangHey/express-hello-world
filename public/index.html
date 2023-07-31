@@ -23,7 +23,22 @@ TemplateMo 581 Kind Heart Charity
 https://templatemo.com/tm-581-kind-heart-charity
 
 -->
+  <!-- JAVASCRIPT FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/click-scroll.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/custom.js"></script>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("./includes/header.html");
+      $("#footer").load("./includes/footer.html");
+
+    });
+  </script>
 </head>
 
 <header class="site-header">
@@ -48,20 +63,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 </header>
 
 <body>
-  <!-- JAVASCRIPT FILES -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/click-scroll.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="js/custom.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(function () {
-      $("#header").load("./includes/header.html");
-    });
-  </script>
+  <div id="header"></div>
 
   <main>
     <section class="hero-section hero-section-full-height">
@@ -430,14 +432,7 @@ https://templatemo.com/tm-581-kind-heart-charity
       </div>
     </section>
   </main>
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(function () {
-      $("#footer").load("./includes/footer.html");
-    });
-  </script>
-
+  <div id="footer"></div>
 </body>
 
 </html>
